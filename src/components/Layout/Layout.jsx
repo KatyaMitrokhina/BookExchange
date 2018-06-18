@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 
-/** DATABASE **/
-import mongoose from 'mongoose';
-
 /** STYLE **/
 import './Layout.css';
+import '../../style/uikit.css';
+import '../../style/uikit-theme.css';
+import '../../style/style.css';
 
 /** COMPONENTS **/
 import Landing from '../IndexPage/Landing';
@@ -18,7 +18,6 @@ class Layout extends Component {
     render() {
         return (
             <div>
-                <div>Some text</div>
                 <BrowserRouter>
                     <Switch>
                         <Route exact path="/" component={Landing}/>

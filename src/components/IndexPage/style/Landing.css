@@ -1,0 +1,88 @@
+.landing-navbar {
+    width: 100%;
+}
+
+.landing-start-img {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/full-screen-books.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    margin-bottom: 30px;
+}
+
+.landing-start-label {
+    height: 80px;
+    line-height: 80px;
+    background-image: url("/img/book-logo.svg");
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 75px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-shadow: 4px 4px 6px rgba(149, 150, 150, 0.89);
+}
+
+.landing-about-us {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.landing-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 45px;
+}
+
+.landing-about-us-text {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: left;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.landing-about-us-button-holder {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.landing-about-us-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.landing-hr {
+    color: white;
+    background-color: white;
+    border: none;
+    height: 5px;
+}
+
+.landing-how {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.landing-how-img {
+    width: 50%;
+    height: 520px;
+    background-image: url("/img/block-schema.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin: 40px auto;
+}

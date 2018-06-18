@@ -1,0 +1,30 @@
+.add-book-form {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    color: #313844;
+}
+
+.add-book-book, .add-book-owner{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.add-book-label {
+    font-size: 14px;
+}
+
+.add-book-legend {
+    font-size: 22px;
+}
+
+.add-book-form-submit {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.add-book-form-submit-button {
+
+}
