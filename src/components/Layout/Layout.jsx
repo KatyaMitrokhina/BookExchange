@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 /** STYLE **/
 import './Layout.css';
 import '../../style/uikit.css';
+
 import '../../style/uikit-theme.css';
 import '../../style/style.css';
 
