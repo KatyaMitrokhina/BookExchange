@@ -86,7 +86,7 @@ class Landing extends Component {
                                 </div>
                             </li>
                             <li>
-                                <img src="/img/book-underlay.jpg"  height="100%" alt="" uk-contain/>
+                                <img src="/img/book-underlay.jpg"  height="" alt="" data-uk-cover/>
                                     <div
                                         className="uk-overlay uk-text-center uk-position-large uk-position-center-left landing-slideshow-block-title">
                                         <h3 className="uk-margin-remove landing-slideshow-text-title">М. А. Булгаков</h3>
@@ -101,7 +101,7 @@ class Landing extends Component {
                                     </div>
                             </li>
                             <li>
-                                <img src="/img/book-underlay.jpg" alt="" uk-contain/>
+                                <img src="/img/book-underlay.jpg" alt="" data-uk-cover/>
                                 <div
                                     className="uk-overlay uk-text-center uk-position-large uk-position-center-left landing-slideshow-block-title">
                                     <h3 className="uk-margin-remove landing-slideshow-text-title">Габриэль Гарсиа Маркес</h3>
