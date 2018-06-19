@@ -70,7 +70,7 @@ class Landing extends Component {
                     </div>
                 </section>
                 <section className="landing-book-slideshow">
-                    <div className="uk-position-relative uk-visible-toggle" uk-slideshow="animation: push">
+                    <div className="uk-position-relative uk-visible-toggle landing-book-slideshow-element" uk-slideshow="animation: push">
 
                         <ul className="uk-slideshow-items">
                             <li>
@@ -86,7 +86,7 @@ class Landing extends Component {
                                 </div>
                             </li>
                             <li>
-                                <img src="/img/book-underlay.jpg" alt="" uk-cover/>
+                                <img src="/img/book-underlay.jpg"  height="100%" alt="" uk-contain/>
                                     <div
                                         className="uk-overlay uk-text-center uk-position-large uk-position-center-left landing-slideshow-block-title">
                                         <h3 className="uk-margin-remove landing-slideshow-text-title">М. А. Булгаков</h3>
@@ -101,7 +101,7 @@ class Landing extends Component {
                                     </div>
                             </li>
                             <li>
-                                <img src="/img/book-underlay.jpg" alt="" uk-cover/>
+                                <img src="/img/book-underlay.jpg" alt="" uk-contain/>
                                 <div
                                     className="uk-overlay uk-text-center uk-position-large uk-position-center-left landing-slideshow-block-title">
                                     <h3 className="uk-margin-remove landing-slideshow-text-title">Габриэль Гарсиа Маркес</h3>
@@ -112,7 +112,7 @@ class Landing extends Component {
                                 </div>
                                 <div
                                     className="uk-overlay uk-text-center uk-position-center-right uk-position-large landing-slideshow-block-text">
-                                    <p className="uk-margin-remove landing-slideshow-text">В романе «Сто лет одиночества» показаны зарождение, расцвет, закат и гибель рода Буэндиа. История этого рода – это история одиночества, так или иначе проявившегося в судьбе каждого из Буэндиа. Одиночество, разобщённость членов семьи, их неспособность понять и быть понятыми друг другом приобретают в романе поистине мифологический характер. Да и сама история нескольких поколений семьи Буэндиа приобретает характер родового мифа, а с ним и его характерные черты –  заданность и предопределённость судьбы героев. Одновременно в романе присутствует и пародия на миф.. Мифотворящая «реальность чудесного», «магический реализм» латиноамериканской прозы выступает в романе как важнейшее средство создания неповторимого облика Америки и одновременно как пародия на самого себя.</p>
+                                    <p className="uk-margin-remove landing-slideshow-text">В романе «Сто лет одиночества» показаны зарождение, расцвет, закат и гибель рода Буэндиа. История этого рода – это история одиночества, так или иначе проявившегося в судьбе каждого из Буэндиа. Одиночество, разобщённость членов семьи, их неспособность понять и быть понятыми друг другом приобретают в романе поистине мифологический характер. Да и сама история нескольких поколений семьи Буэндиа приобретает характер родового мифа, а с ним и его характерные черты –  заданность и предопределённость судьбы героев.</p>
                                 </div>
                             </li>
                         </ul>
