@@ -115,6 +115,21 @@ class Landing extends Component {
                                     <p className="uk-margin-remove landing-slideshow-text">В романе «Сто лет одиночества» показаны зарождение, расцвет, закат и гибель рода Буэндиа. История этого рода – это история одиночества, так или иначе проявившегося в судьбе каждого из Буэндиа. Одиночество, разобщённость членов семьи, их неспособность понять и быть понятыми друг другом приобретают в романе поистине мифологический характер. Да и сама история нескольких поколений семьи Буэндиа приобретает характер родового мифа, а с ним и его характерные черты –  заданность и предопределённость судьбы героев.</p>
                                 </div>
                             </li>
+                            <li>
+                                <img src="/img/book-underlay.jpg" alt="" data-uk-cover/>
+                                <div
+                                    className="uk-overlay uk-text-center uk-position-large uk-position-center-left landing-slideshow-block-title">
+                                    <h3 className="uk-margin-remove landing-slideshow-text-title">Стивен Кинг</h3>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <p className="uk-margin-remove landing-slideshow-text-title">Зелёная миля</p>
+                                </div>
+                                <div
+                                    className="uk-overlay uk-text-center uk-position-center-right uk-position-large landing-slideshow-block-text">
+                                    <p className="uk-margin-remove landing-slideshow-text">В тюрьме «Холодная гора» блок смертников называют Зеленой Милей. Там видели разных заключенных, но однажды на Милю привозят Джона Коффи – огромного негра, который якобы совершил страшное преступление – жестоко убил двух маленьких девочек. И вот Полу Эджкомбу и другим сотрудника блока предстоит узнать, что не все бывает таким, каким кажется. Иногда тот, кто за решеткой может быть лучше того, кто снаружи. А смерть может стать желанным избавлением от тяжкого бремени жизни.</p>
+                                </div>
+                            </li>
                         </ul>
 
                         <div className="uk-light">
