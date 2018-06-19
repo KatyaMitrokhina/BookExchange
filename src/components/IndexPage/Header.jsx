@@ -11,7 +11,7 @@ class LandingHeader extends Component {
                             <div>
                                 <ul className="uk-navbar-nav">
                                     <li><a href="/">Главная</a></li>
-                                    <li className="uk-active"><a href="/books">Все книги</a></li>
+                                    <li><a href="/books">Все книги</a></li>
                                 </ul>
                             </div>
                         </div>
